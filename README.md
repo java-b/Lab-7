@@ -32,8 +32,8 @@
 
 作业：设计一个实验，证明public，static，private的区别，需提交文档说明逻辑然后附上相应代码。
 
-|Tables         | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+|作用域         | 当前类           | 同一package  | 其他package  |
+| ------------- |:-------------:| -----:|-----:|
+| public      | √ | √ | √|
+| default      | √      |   √ |×|
+| private | √      |    × |×|
