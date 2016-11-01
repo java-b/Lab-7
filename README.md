@@ -20,20 +20,14 @@
 
 ## 方法的访问权限
 
-作用域       当前类    同一package        其他package
- 
- public        √         √                        √
- 
- default       √          √                        ×
- 
- private        √          ×                       ×
- 
-注：不写时默认为friendly
-
-作业：设计一个实验，证明public，static，private的区别，需提交文档说明逻辑然后附上相应代码。
+关于java方法访问权限的修饰词有四种，public,protected(未学习不讨论),default(即没有修饰词),private。
 
 |作用域         | 当前类           | 同一package  | 其他package  |
 | ------------- |:-------------:| -----:|-----:|
 | public      | √ | √ | √|
 | default      | √      |   √ |×|
 | private | √      |    × |×|
+
+请设计一个实验，证明public，default，private的区别，需提交文档说明并附上相关代码。
+
+
